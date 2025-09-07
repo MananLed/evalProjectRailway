@@ -54,7 +54,7 @@ func (h *TicketHandler) BookTicket(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	if req.BookedSeats > 5{
+	if req.BookedSeats > 5 {
 		response.ErrorResponse(w, http.StatusBadRequest, "Cannot book more than 5 seats at a time", 1002)
 		return
 	}
@@ -159,11 +159,34 @@ func (h *TicketHandler) GetTicketOfPassenger(w http.ResponseWriter, r *http.Requ
 		return
 	}
 
-	tickets, err := h.TicketService.GetTicketsOfPassenger(user.ID)
+	id := strings.TrimPrefix(r.URL.Path, "/tickets/")
 
-	if err != nil {
-		logger.LogToFile("Error retrieving tickets")
-		response.ErrorResponse(w, http.StatusInternalServerError, "Error in retrieval of tickets", 1010)
+	var tickets []model.Ticket
+
+	if id == "" && user.Role == model.RolePassenger {
+		tickets, err = h.TicketService.GetTicketsOfPassenger(user.ID)
+		if err != nil {
+			logger.LogToFile("Error retrieving tickets")
+			response.ErrorResponse(w, http.StatusInternalServerError, "Error in retrieval of tickets", 1010)
+			return
+		}
+	} else if id != "" && user.Role == model.RoleAdmin {
+		passengerid, err := uuid.Parse(id)
+		if err != nil {
+			logger.LogToFile("Error retrieving tickets")
+			response.ErrorResponse(w, http.StatusInternalServerError, "Error in retrieval of tickets", 1010)
+			return
+		}
+
+		tickets, err = h.TicketService.GetTicketsOfPassenger(passengerid)
+		if err != nil {
+			logger.LogToFile("Error retrieving tickets")
+			response.ErrorResponse(w, http.StatusInternalServerError, "Error in retrieval of tickets", 1010)
+			return
+		}
+	}else {
+		logger.LogToFile("Invalid operation")
+		response.ErrorResponse(w, http.StatusBadRequest, "Invalid operation", 1002)
 		return
 	}
 
