@@ -59,3 +59,30 @@
 2025/09/08 20:20:34 Completed POST /tickets in 5.1868ms
 2025/09/08 20:20:43 Startted POST /tickets from [::1]:64282
 2025/09/08 20:20:43 Completed POST /tickets in 4.8381ms
+2025/09/09 00:42:03 error: sql: transaction has already been committed or rolled back
+2025/09/09 00:42:08 error: sql: transaction has already been committed or rolled back
+2025/09/09 00:50:12 error: sql: transaction has already been committed or rolled back
+2025/09/09 00:50:28 error: sql: transaction has already been committed or rolled back
+2025/09/09 00:50:53 error: sql: connection is already closed
+2025/09/09 00:51:10 error: sql: no rows in result set
+2025/09/09 00:51:16 error: sql: transaction has already been committed or rolled back
+2025/09/09 00:51:21 error: sql: transaction has already been committed or rolled back
+2025/09/09 00:51:33 error: sql: connection is already closed
+2025/09/09 00:51:38 error: sql: expected 1 destination arguments in Scan, not 8
+2025/09/09 01:08:22 error: insert failed
+2025/09/09 01:09:24 error: db error
+2025/09/09 01:10:47 error: db error
+2025/09/09 01:11:04 error: db error
+2025/09/09 01:11:19 error: update failed
+2025/09/09 01:11:30 error: update failed
+2025/09/09 01:11:43 error: delete failed
+2025/09/09 02:20:08 error: invalid credentials
+2025/09/09 02:20:22 error: crypto/bcrypt: hashedPassword is not the hash of the given password
+2025/09/09 02:27:26 error: user role not found in context
+2025/09/09 02:27:26 error: user ID not found in context
+2025/09/09 02:31:59 error: user ID not found in context
+2025/09/09 02:58:50 User created successfully
+2025/09/09 02:58:50 Invalid input
+2025/09/09 02:59:07 user id not found
+2025/09/09 02:59:07 user id not found
+2025/09/09 02:59:28 user not found
