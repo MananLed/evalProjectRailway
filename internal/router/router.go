@@ -29,7 +29,7 @@ func SetupRouter(userService service.UserService, trainService service.TrainServ
 
 	r.Handle("POST /tickets", middleware.AuthMiddleWare(http.HandlerFunc(ticketHandler.BookTicket)))
 	r.Handle("DELETE /tickets/{id}", middleware.AuthMiddleWare(http.HandlerFunc(ticketHandler.CancelTicket)))
-	r.Handle("GET /tickets/{id}", middleware.AuthMiddleWare(http.HandlerFunc(ticketHandler.GetTicketOfPassenger)))
+	r.Handle("GET /tickets/", middleware.AuthMiddleWare(http.HandlerFunc(ticketHandler.GetTicketOfPassenger)))
 
 	return r
 }

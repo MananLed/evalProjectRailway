@@ -39,11 +39,12 @@ func AuthMiddleWare(next http.Handler) http.Handler {
 			return
 		}
 
-		userID, ok := claims["user_id"].(uuid.UUID)
+		userIDString, ok := claims["user_id"].(string)
 		if !ok {
 			response.ErrorResponse(w, http.StatusUnauthorized, "Invalid token", 1002)
 			return
 		}
+		userID, err := uuid.Parse(userIDString)
 
 		role, ok := claims["role"].(string)
 		if !ok {

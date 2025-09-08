@@ -1,0 +1,61 @@
+2025/09/08 14:39:24 Startted POST /signup from [::1]:61288
+2025/09/08 14:39:24 User created successfully
+2025/09/08 14:39:24 Completed POST /signup in 79.7221ms
+2025/09/08 14:49:13 Startted POST /login from [::1]:54069
+2025/09/08 14:49:13 error: sql: Scan error on column index 2, name "middlename": converting NULL to string is unsupported
+2025/09/08 14:49:13 error: sql: Scan error on column index 2, name "middlename": converting NULL to string is unsupported
+2025/09/08 14:49:13 Invalid email or password
+2025/09/08 14:49:13 Completed POST /login in 2.746ms
+2025/09/08 14:55:01 Startted POST /login from [::1]:64717
+2025/09/08 14:55:02 Completed POST /login in 69.7146ms
+2025/09/08 14:58:10 Startted POST /login from [::1]:52891
+2025/09/08 14:58:10 Completed POST /login in 70.3857ms
+2025/09/08 14:58:21 Startted GET /profile from [::1]:52891
+2025/09/08 14:58:21 Completed GET /profile in 1.3249ms
+2025/09/08 15:11:34 Startted POST /login from [::1]:50697
+2025/09/08 15:11:34 Completed POST /login in 72.9665ms
+2025/09/08 15:11:45 Startted GET /profile from [::1]:50697
+2025/09/08 15:11:45 Completed GET /profile in 5.8942ms
+2025/09/08 15:14:50 Startted PATCH /profile/update from [::1]:57919
+2025/09/08 15:14:50 User updated successfully
+2025/09/08 15:14:50 Completed PATCH /profile/update in 7.6158ms
+2025/09/08 15:15:12 Startted GET /profile from [::1]:57919
+2025/09/08 15:15:12 Completed GET /profile in 4.4973ms
+2025/09/08 15:16:33 Startted PATCH /profile/password from [::1]:50468
+2025/09/08 15:16:33 Completed PATCH /profile/password in 207.2306ms
+2025/09/08 15:16:51 Startted POST /login from [::1]:50468
+2025/09/08 15:16:51 Completed POST /login in 70.5987ms
+2025/09/08 15:23:11 Startted POST /trains from [::1]:54515
+2025/09/08 15:23:11 Train added successfully
+2025/09/08 15:23:11 Completed POST /trains in 11.5133ms
+2025/09/08 20:03:20 Startted GET /trains from [::1]:58821
+2025/09/08 20:03:20 Completed GET /trains in 34.7748ms
+2025/09/08 20:06:08 Startted GET /trains from [::1]:57365
+2025/09/08 20:06:08 Completed GET /trains in 5.9347ms
+2025/09/08 20:06:23 Startted GET /trains from [::1]:57365
+2025/09/08 20:06:23 Completed GET /trains in 4.3829ms
+2025/09/08 20:06:33 Startted GET /trains from [::1]:57365
+2025/09/08 20:06:33 Completed GET /trains in 1.2706ms
+2025/09/08 20:08:55 Startted POST /login from [::1]:52400
+2025/09/08 20:08:55 Completed POST /login in 70.8326ms
+2025/09/08 20:09:04 Startted GET /profile from [::1]:52400
+2025/09/08 20:09:04 Completed GET /profile in 1.1171ms
+2025/09/08 20:09:19 Startted GET /trains from [::1]:52400
+2025/09/08 20:09:19 Completed GET /trains in 1.1711ms
+2025/09/08 20:11:09 Startted POST /tickets from [::1]:54294
+2025/09/08 20:11:09 Completed POST /tickets in 14.6171ms
+2025/09/08 20:12:09 Startted GET /tickets/{{passengerid}} from [::1]:62416
+2025/09/08 20:12:09 Invalid operation
+2025/09/08 20:12:09 Completed GET /tickets/{{passengerid}} in 1.0845ms
+2025/09/08 20:13:43 Startted GET /tickets/ from [::1]:53007
+2025/09/08 20:13:43 Completed GET /tickets/ in 0s
+2025/09/08 20:15:18 Startted GET /tickets from [::1]:60832
+2025/09/08 20:15:18 Completed GET /tickets in 546.2µs
+2025/09/08 20:18:40 Startted GET /tickets/ from [::1]:52539
+2025/09/08 20:18:40 Completed GET /tickets/ in 6.5127ms
+2025/09/08 20:19:42 Startted DELETE /tickets/98822330-0e68-49dd-901a-42540c3bdb72 from [::1]:64282
+2025/09/08 20:19:42 Completed DELETE /tickets/98822330-0e68-49dd-901a-42540c3bdb72 in 4.4726ms
+2025/09/08 20:20:34 Startted POST /tickets from [::1]:64282
+2025/09/08 20:20:34 Completed POST /tickets in 5.1868ms
+2025/09/08 20:20:43 Startted POST /tickets from [::1]:64282
+2025/09/08 20:20:43 Completed POST /tickets in 4.8381ms
