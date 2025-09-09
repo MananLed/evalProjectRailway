@@ -86,3 +86,110 @@
 2025/09/09 02:59:07 user id not found
 2025/09/09 02:59:07 user id not found
 2025/09/09 02:59:28 user not found
+2025/09/09 03:14:04 User created successfully
+2025/09/09 03:14:23 User updated successfully
+2025/09/09 03:14:43 Invalid email or password
+2025/09/09 03:19:52 Train added successfully
+2025/09/09 03:20:00 unauthorized person wants to view list of residents
+2025/09/09 03:20:28 Invalid input
+2025/09/09 03:23:06 Invalid input
+2025/09/09 03:24:26 Invalid input
+2025/09/09 03:24:26 Invalid input
+2025/09/09 03:24:26 Error adding train
+2025/09/09 03:24:49 Invalid date format
+2025/09/09 03:24:54 error in fetching train details
+2025/09/09 03:31:33 Invalid Input
+2025/09/09 03:32:25 Ticket ID missing in URL
+2025/09/09 03:32:46 Invalid Input
+2025/09/09 03:34:41 Invalid Input
+2025/09/09 03:35:56 Invalid Input
+2025/09/09 03:38:34 Startted POST /login from [::1]:58292
+2025/09/09 03:38:34 Completed POST /login in 70.7027ms
+2025/09/09 03:38:41 Startted GET /profile from [::1]:58292
+2025/09/09 03:38:41 Completed GET /profile in 6.1433ms
+2025/09/09 03:39:46 Startted POST /trains from [::1]:58534
+2025/09/09 03:39:46 Train added successfully
+2025/09/09 03:39:46 Completed POST /trains in 18.2278ms
+2025/09/09 03:39:55 Startted GET /trains from [::1]:58534
+2025/09/09 03:39:55 Completed GET /trains in 5.8402ms
+2025/09/09 03:40:13 Startted GET /trains from [::1]:58534
+2025/09/09 03:40:13 Completed GET /trains in 5.5724ms
+2025/09/09 03:40:21 Startted GET /trains from [::1]:58534
+2025/09/09 03:40:21 Completed GET /trains in 6.2609ms
+2025/09/09 03:41:02 Startted DELETE /trains/3faf2c23-3542-4321-b82c-d62b622ebcb5 from [::1]:58534
+2025/09/09 03:41:03 Completed DELETE /trains/3faf2c23-3542-4321-b82c-d62b622ebcb5 in 15.3831ms
+2025/09/09 03:41:39 Startted GET /trains from [::1]:58534
+2025/09/09 03:41:39 Completed GET /trains in 6.0566ms
+2025/09/09 03:42:16 Startted POST /login from [::1]:58534
+2025/09/09 03:42:16 Completed POST /login in 75.9791ms
+2025/09/09 03:42:29 Startted POST /tickets from [::1]:58534
+2025/09/09 03:42:29 Completed POST /tickets in 8.9484ms
+2025/09/09 03:42:44 Startted GET /tickets/ from [::1]:58534
+2025/09/09 03:42:44 Completed GET /tickets/ in 6.1726ms
+2025/09/09 03:43:24 Startted DELETE /tickets/12c8015b-68ba-4700-8709-50eec72c62e9 from [::1]:58534
+2025/09/09 03:43:24 Completed DELETE /tickets/12c8015b-68ba-4700-8709-50eec72c62e9 in 9.6248ms
+2025/09/09 03:44:10 Startted DELETE /profile from [::1]:58534
+2025/09/09 03:44:10 Completed DELETE /profile in 7.8791ms
+2025/09/09 03:44:29 Startted POST /signup from [::1]:58534
+2025/09/09 03:44:29 User created successfully
+2025/09/09 03:44:29 Completed POST /signup in 88.5944ms
+2025/09/09 09:44:36 error: invalid credentials
+2025/09/09 09:44:37 error: crypto/bcrypt: hashedPassword is not the hash of the given password
+2025/09/09 09:44:37 error: user ID not found in context
+2025/09/09 09:45:10 error: sql: transaction has already been committed or rolled back
+2025/09/09 09:45:10 error: sql: transaction has already been committed or rolled back
+2025/09/09 09:45:10 error: sql: connection is already closed
+2025/09/09 09:45:10 error: sql: no rows in result set
+2025/09/09 09:45:10 error: sql: transaction has already been committed or rolled back
+2025/09/09 09:45:10 error: sql: transaction has already been committed or rolled back
+2025/09/09 09:45:10 error: sql: connection is already closed
+2025/09/09 09:45:10 error: sql: expected 1 destination arguments in Scan, not 8
+2025/09/09 09:45:10 error: insert failed
+2025/09/09 09:45:10 error: db error
+2025/09/09 09:45:11 error: db error
+2025/09/09 09:45:11 error: db error
+2025/09/09 09:45:11 error: update failed
+2025/09/09 09:45:11 error: update failed
+2025/09/09 09:45:11 error: delete failed
+2025/09/09 09:45:35 Invalid Input
+2025/09/09 09:45:35 Ticket ID missing in URL
+2025/09/09 09:45:35 Train added successfully
+2025/09/09 09:45:35 unauthorized person wants to view list of residents
+2025/09/09 09:45:35 Invalid input
+2025/09/09 09:45:35 Invalid input
+2025/09/09 09:45:35 Error adding train
+2025/09/09 09:45:35 Invalid date format
+2025/09/09 09:45:35 error in fetching train details
+2025/09/09 09:45:35 User created successfully
+2025/09/09 09:45:35 User updated successfully
+2025/09/09 09:45:35 Invalid email or password
+2025/09/09 09:52:58 Invalid Input
+2025/09/09 09:52:58 Ticket ID missing in URL
+2025/09/09 09:52:58 Train added successfully
+2025/09/09 09:52:58 unauthorized person wants to view list of residents
+2025/09/09 09:52:58 Invalid input
+2025/09/09 09:52:58 Invalid input
+2025/09/09 09:52:58 Error adding train
+2025/09/09 09:52:58 Invalid date format
+2025/09/09 09:52:58 error in fetching train details
+2025/09/09 09:52:58 User created successfully
+2025/09/09 09:52:58 User updated successfully
+2025/09/09 09:52:58 Invalid email or password
+2025/09/09 09:52:58 error: invalid credentials
+2025/09/09 09:52:58 error: sql: transaction has already been committed or rolled back
+2025/09/09 09:52:58 error: sql: transaction has already been committed or rolled back
+2025/09/09 09:52:58 error: sql: connection is already closed
+2025/09/09 09:52:58 error: sql: no rows in result set
+2025/09/09 09:52:58 error: sql: transaction has already been committed or rolled back
+2025/09/09 09:52:58 error: sql: transaction has already been committed or rolled back
+2025/09/09 09:52:58 error: sql: connection is already closed
+2025/09/09 09:52:58 error: sql: expected 1 destination arguments in Scan, not 8
+2025/09/09 09:52:58 error: insert failed
+2025/09/09 09:52:58 error: db error
+2025/09/09 09:52:59 error: crypto/bcrypt: hashedPassword is not the hash of the given password
+2025/09/09 09:52:59 error: db error
+2025/09/09 09:52:59 error: user ID not found in context
+2025/09/09 09:52:59 error: db error
+2025/09/09 09:52:59 error: update failed
+2025/09/09 09:52:59 error: update failed
+2025/09/09 09:52:59 error: delete failed
