@@ -193,3 +193,236 @@
 2025/09/09 09:52:59 error: update failed
 2025/09/09 09:52:59 error: update failed
 2025/09/09 09:52:59 error: delete failed
+2025/09/09 15:03:18 Invalid Input
+2025/09/09 15:03:18 Ticket ID missing in URL
+2025/09/09 15:03:18 Train added successfully
+2025/09/09 15:03:18 unauthorized person wants to view list of residents
+2025/09/09 15:03:18 Invalid input
+2025/09/09 15:03:18 Invalid input
+2025/09/09 15:03:18 Error adding train
+2025/09/09 15:03:18 Invalid date format
+2025/09/09 15:03:18 error in fetching train details
+2025/09/09 15:03:18 User created successfully
+2025/09/09 15:03:18 User updated successfully
+2025/09/09 15:03:18 Invalid email or password
+2025/09/09 15:05:22 Invalid Input
+2025/09/09 15:05:22 Ticket ID missing in URL
+2025/09/09 15:05:22 Train added successfully
+2025/09/09 15:05:22 unauthorized person wants to view list of residents
+2025/09/09 15:05:22 Invalid input
+2025/09/09 15:05:22 Invalid input
+2025/09/09 15:05:22 Error adding train
+2025/09/09 15:05:22 Invalid date format
+2025/09/09 15:05:22 error in fetching train details
+2025/09/09 15:05:22 User created successfully
+2025/09/09 15:05:22 User updated successfully
+2025/09/09 15:05:22 Invalid email or password
+2025/09/09 15:15:52 user id not found
+2025/09/09 15:22:25 user not found
+2025/09/09 15:35:47 Invalid operation
+2025/09/09 15:40:42 Invalid Input
+2025/09/09 15:40:42 user id not found
+2025/09/09 15:40:42 Ticket ID missing in URL
+2025/09/09 15:40:42 user not found
+2025/09/09 15:40:42 Invalid operation
+2025/09/09 15:40:42 Train added successfully
+2025/09/09 15:40:42 unauthorized person wants to view list of residents
+2025/09/09 15:40:42 Invalid input
+2025/09/09 15:40:42 Invalid input
+2025/09/09 15:40:42 Error adding train
+2025/09/09 15:40:42 Invalid date format
+2025/09/09 15:40:42 error in fetching train details
+2025/09/09 15:40:42 User created successfully
+2025/09/09 15:40:42 User updated successfully
+2025/09/09 15:40:42 Invalid email or password
+2025/09/09 15:50:37 Error retrieving tickets
+2025/09/09 15:50:52 Error retrieving tickets
+2025/09/09 15:58:22 user not found
+2025/09/09 15:58:22 user not found
+2025/09/09 16:05:36 Ticket not found
+2025/09/09 16:09:52 Ticket not found
+2025/09/09 16:09:52 unauthorized access
+2025/09/09 16:13:46 Ticket ID missing in URL
+2025/09/09 16:15:45 Ticket ID missing in URL
+2025/09/09 16:15:45 Error cancelling ticket
+2025/09/09 16:16:26 Invalid Input
+2025/09/09 16:16:26 user id not found
+2025/09/09 16:16:26 Ticket ID missing in URL
+2025/09/09 16:16:26 Error cancelling ticket
+2025/09/09 16:16:26 Ticket not found
+2025/09/09 16:16:26 unauthorized access
+2025/09/09 16:16:26 user not found
+2025/09/09 16:16:26 user not found
+2025/09/09 16:16:26 Error retrieving tickets
+2025/09/09 16:16:26 Invalid operation
+2025/09/09 16:16:26 Error retrieving tickets
+2025/09/09 16:16:26 Train added successfully
+2025/09/09 16:16:26 unauthorized person wants to view list of residents
+2025/09/09 16:16:26 Invalid input
+2025/09/09 16:16:26 Invalid input
+2025/09/09 16:16:26 Error adding train
+2025/09/09 16:16:26 Invalid date format
+2025/09/09 16:16:26 error in fetching train details
+2025/09/09 16:16:26 User created successfully
+2025/09/09 16:16:26 User updated successfully
+2025/09/09 16:16:26 Invalid email or password
+2025/09/09 17:15:03 Invalid Input
+2025/09/09 17:15:03 user id not found
+2025/09/09 17:15:03 Ticket ID missing in URL
+2025/09/09 17:15:03 Error cancelling ticket
+2025/09/09 17:15:03 Ticket not found
+2025/09/09 17:15:03 unauthorized access
+2025/09/09 17:15:03 user not found
+2025/09/09 17:15:03 user not found
+2025/09/09 17:15:03 Error retrieving tickets
+2025/09/09 17:15:03 Invalid operation
+2025/09/09 17:15:03 Error retrieving tickets
+2025/09/09 17:15:03 Train added successfully
+2025/09/09 17:15:03 unauthorized person wants to view list of residents
+2025/09/09 17:15:03 Invalid input
+2025/09/09 17:15:03 Invalid input
+2025/09/09 17:15:03 Error adding train
+2025/09/09 17:15:03 Invalid date format
+2025/09/09 17:15:03 error in fetching train details
+2025/09/09 17:15:03 User created successfully
+2025/09/09 17:15:03 User updated successfully
+2025/09/09 17:15:03 Invalid email or password
+2025/09/09 17:47:12 Ticket not found
+2025/09/09 17:47:12 unauthorized access
+2025/09/09 17:47:12 unauthorized access
+2025/09/09 17:47:12 unauthorized access
+2025/09/09 17:49:10 Ticket not found
+2025/09/09 17:49:10 unauthorized access
+2025/09/09 17:49:37 Invalid Input
+2025/09/09 17:49:37 Ticket ID missing in URL
+2025/09/09 17:49:37 Error cancelling ticket
+2025/09/09 17:49:37 Ticket not found
+2025/09/09 17:49:37 unauthorized access
+2025/09/09 17:49:37 user not found
+2025/09/09 17:49:37 user not found
+2025/09/09 17:49:37 Error retrieving tickets
+2025/09/09 17:49:37 Invalid operation
+2025/09/09 17:49:37 Error retrieving tickets
+2025/09/09 17:49:37 Train added successfully
+2025/09/09 17:49:37 unauthorized person wants to view list of residents
+2025/09/09 17:49:37 Invalid input
+2025/09/09 17:49:37 Invalid input
+2025/09/09 17:49:37 Error adding train
+2025/09/09 17:49:37 Invalid date format
+2025/09/09 17:49:37 error in fetching train details
+2025/09/09 17:49:37 User created successfully
+2025/09/09 17:49:37 User updated successfully
+2025/09/09 17:49:37 Invalid email or password
+2025/09/09 18:08:24 Invalid input
+2025/09/09 18:08:24 Invalid input
+2025/09/09 18:08:24 Error adding train
+2025/09/09 18:08:24 Invalid input
+2025/09/09 18:08:24 Invalid input
+2025/09/09 18:08:24 Invalid input
+2025/09/09 18:08:24 Invalid input
+2025/09/09 18:09:08 Invalid Input
+2025/09/09 18:09:08 Ticket ID missing in URL
+2025/09/09 18:09:08 Error cancelling ticket
+2025/09/09 18:09:08 Ticket not found
+2025/09/09 18:09:08 unauthorized access
+2025/09/09 18:09:08 user not found
+2025/09/09 18:09:08 user not found
+2025/09/09 18:09:08 Error retrieving tickets
+2025/09/09 18:09:08 Invalid operation
+2025/09/09 18:09:08 Error retrieving tickets
+2025/09/09 18:09:08 Train added successfully
+2025/09/09 18:09:08 unauthorized person wants to view list of residents
+2025/09/09 18:09:08 Invalid input
+2025/09/09 18:09:08 Invalid input
+2025/09/09 18:09:08 Error adding train
+2025/09/09 18:09:08 Invalid input
+2025/09/09 18:09:08 Invalid input
+2025/09/09 18:09:08 Invalid input
+2025/09/09 18:09:08 Invalid input
+2025/09/09 18:09:08 Invalid date format
+2025/09/09 18:09:08 error in fetching train details
+2025/09/09 18:09:08 User created successfully
+2025/09/09 18:09:08 User updated successfully
+2025/09/09 18:09:08 Invalid email or password
+2025/09/09 22:50:57 User created successfully
+2025/09/09 22:50:57 Invalid input
+2025/09/09 22:51:48 User created successfully
+2025/09/09 22:51:48 Invalid input
+2025/09/09 22:59:43 User created successfully
+2025/09/09 22:59:43 Invalid input
+2025/09/09 23:01:53 User created successfully
+2025/09/09 23:01:53 Invalid input
+2025/09/09 23:01:53 Validation error
+2025/09/09 23:04:02 User created successfully
+2025/09/09 23:04:02 Invalid input
+2025/09/09 23:04:02 Validation error
+2025/09/09 23:04:02 Email not unique
+2025/09/09 23:06:31 Error creating user
+2025/09/09 23:10:21 Invalid Input
+2025/09/09 23:14:08 Invalid Input
+2025/09/09 23:19:00 user id not found
+2025/09/09 23:21:52 user not found
+2025/09/09 23:23:43 user not found
+2025/09/09 23:24:39 user not found
+2025/09/09 23:27:32 user not found
+2025/09/09 23:27:32 Error deleting user
+2025/09/09 23:31:56 user not found
+2025/09/09 23:34:28 user not found
+2025/09/09 23:34:28 unauthorized user changing password
+2025/09/09 23:36:55 user not found
+2025/09/09 23:36:55 unauthorized user changing password
+2025/09/09 23:36:55 Invalid request
+2025/09/09 23:42:23 User updated successfully
+2025/09/09 23:42:24 User updated successfully
+2025/09/09 23:45:05 User updated successfully
+2025/09/09 23:45:05 user not found
+2025/09/09 23:48:14 User updated successfully
+2025/09/09 23:48:14 user not found
+2025/09/09 23:49:38 User updated successfully
+2025/09/09 23:49:38 user not found
+2025/09/09 23:49:38 Failed to update user: flsjf
+2025/09/09 23:52:28 User updated successfully
+2025/09/09 23:52:28 user not found
+2025/09/09 23:52:28 Failed to update user: flsjf
+2025/09/09 23:53:23 User updated successfully
+2025/09/09 23:53:23 user not found
+2025/09/09 23:53:23 Failed to update user: flsjf
+2025/09/09 23:53:23 Email not unique
+2025/09/10 00:02:46 Invalid Input
+2025/09/10 00:02:46 Ticket ID missing in URL
+2025/09/10 00:02:46 Error cancelling ticket
+2025/09/10 00:02:46 Ticket not found
+2025/09/10 00:02:46 unauthorized access
+2025/09/10 00:02:46 user not found
+2025/09/10 00:02:46 user not found
+2025/09/10 00:02:46 Error retrieving tickets
+2025/09/10 00:02:46 Invalid operation
+2025/09/10 00:02:46 Error retrieving tickets
+2025/09/10 00:02:46 Train added successfully
+2025/09/10 00:02:46 unauthorized person wants to view list of residents
+2025/09/10 00:02:46 Invalid input
+2025/09/10 00:02:46 Invalid input
+2025/09/10 00:02:46 Error adding train
+2025/09/10 00:02:46 Invalid input
+2025/09/10 00:02:46 Invalid input
+2025/09/10 00:02:46 Invalid input
+2025/09/10 00:02:46 Invalid input
+2025/09/10 00:02:46 Invalid date format
+2025/09/10 00:02:46 error in fetching train details
+2025/09/10 00:02:46 User created successfully
+2025/09/10 00:02:46 Invalid input
+2025/09/10 00:02:46 Validation error
+2025/09/10 00:02:46 Email not unique
+2025/09/10 00:02:46 Error creating user
+2025/09/10 00:02:46 Invalid Input
+2025/09/10 00:02:46 user id not found
+2025/09/10 00:02:46 User updated successfully
+2025/09/10 00:02:46 user not found
+2025/09/10 00:02:46 Failed to update user: flsjf
+2025/09/10 00:02:46 Email not unique
+2025/09/10 00:02:46 user not found
+2025/09/10 00:02:46 unauthorized user changing password
+2025/09/10 00:02:46 Invalid request
+2025/09/10 00:02:46 user not found
+2025/09/10 00:02:46 Error deleting user
+2025/09/10 00:02:46 Invalid email or password

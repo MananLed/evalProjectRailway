@@ -121,6 +121,75 @@ func TestAddTrain_InvalidInput(t *testing.T) {
 	if w3.Code != http.StatusInternalServerError {
 		t.Errorf("expected 500 InternalServerError, got %d", w3.Code)
 	}
+
+	body4 := []byte(`{
+		"name":"Express",
+		"source":"Delhi",
+		"destination":"Mumbai",
+		"departuredate":"202-09-10",
+		"departuretime":"10:00",
+		"arrivaldate":"2025-09-11",
+		"arrivaltime":"08:00",
+		"totalseats":100,
+		"seatfare":500
+	}`)
+	req4 := httptest.NewRequest(http.MethodPost, "/trains", bytes.NewBuffer(body4))
+	w4 := httptest.NewRecorder()
+	h.AddTrain(w4, req4)
+	if w4.Code != http.StatusBadRequest {
+		t.Errorf("expected 400 StatusBadRequest, got %d", w4.Code)
+	}
+	body5 := []byte(`{
+		"name":"Express",
+		"source":"Delhi",
+		"destination":"Mumbai",
+		"departuredate":"2025-09-10",
+		"departuretime":"103:00",
+		"arrivaldate":"2025-09-11",
+		"arrivaltime":"08:00",
+		"totalseats":100,
+		"seatfare":500
+	}`)
+	req5 := httptest.NewRequest(http.MethodPost, "/trains", bytes.NewBuffer(body5))
+	w5 := httptest.NewRecorder()
+	h.AddTrain(w5, req5)
+	if w5.Code != http.StatusBadRequest {
+		t.Errorf("expected 400 StatusBadRequest, got %d", w5.Code)
+	}
+	body6 := []byte(`{
+		"name":"Express",
+		"source":"Delhi",
+		"destination":"Mumbai",
+		"departuredate":"2025-09-10",
+		"departuretime":"10:00",
+		"arrivaldate":"202-09-11",
+		"arrivaltime":"08:00",
+		"totalseats":100,
+		"seatfare":500
+	}`)
+	req6 := httptest.NewRequest(http.MethodPost, "/trains", bytes.NewBuffer(body6))
+	w6 := httptest.NewRecorder()
+	h.AddTrain(w6, req6)
+	if w6.Code != http.StatusBadRequest {
+		t.Errorf("expected 400 StatusBadRequest, got %d", w6.Code)
+	}
+	body7 := []byte(`{
+		"name":"Express",
+		"source":"Delhi",
+		"destination":"Mumbai",
+		"departuredate":"2025-09-10",
+		"departuretime":"10:00",
+		"arrivaldate":"2025-09-11",
+		"arrivaltime":"088:00",
+		"totalseats":100,
+		"seatfare":500
+	}`)
+	req7 := httptest.NewRequest(http.MethodPost, "/trains", bytes.NewBuffer(body7))
+	w7 := httptest.NewRecorder()
+	h.AddTrain(w7, req7)
+	if w7.Code != http.StatusBadRequest {
+		t.Errorf("expected 400 StatusBadRequest, got %d", w7.Code)
+	}
 }
 
 func TestDeleteTrain_Success(t *testing.T) {
