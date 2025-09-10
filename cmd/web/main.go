@@ -36,9 +36,7 @@ func main() {
 
 	router := router.SetupRouter(*userService, *trainService, *ticketService)
 
-	handler := middleware.CorsMiddleWare(
-		middleware.LoggingMiddleWare(router),
-	)
+	handler := middleware.LoggingMiddleWare(router)
 
 	log.Println("Server starting on the Port 8080...")
 	fmt.Println("Server starting on the Port 8080...")
