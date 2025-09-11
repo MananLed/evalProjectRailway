@@ -15,8 +15,8 @@ func SetupRouter(userService service.UserService, trainService service.TrainServ
 	trainHandler := handler.NewTrainHandler(&trainService, &userService)
 	ticketHandler := handler.NewTicketHandler(&ticketService, &userService, &trainService)
 
-	r.HandleFunc("POST /signup", http.HandlerFunc(userHandler.SignUp)) //Content in body
-	r.HandleFunc("POST /login", http.HandlerFunc(userHandler.Login))   //content in body
+	r.HandleFunc("POST /signup", userHandler.SignUp) //Content in body
+	r.HandleFunc("POST /login", userHandler.Login)   //content in body
 
 	r.Handle("GET /profile", middleware.AuthMiddleWare(http.HandlerFunc(userHandler.ViewProfile)))            // GET
 	r.Handle("PATCH /profile/update", middleware.AuthMiddleWare(http.HandlerFunc(userHandler.UpdateProfile))) // PATCH  //update details in body
